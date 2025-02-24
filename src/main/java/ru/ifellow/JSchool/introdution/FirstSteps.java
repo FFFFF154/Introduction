@@ -1,7 +1,7 @@
 package ru.ifellow.JSchool.introdution;
 
 
-public class FirstStep {
+public class FirstSteps {
 
     public int sum(int x, int y) {
         return x + y;
