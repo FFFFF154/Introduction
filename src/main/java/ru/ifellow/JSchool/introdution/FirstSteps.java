@@ -97,7 +97,7 @@ public class FirstSteps {
         if (array == null || array.length == 0) {
             return true;
         }
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array.length - 1; i++) {
             if (!(array[i] > array[i + 1])) {
                 return false;
             }
@@ -106,7 +106,7 @@ public class FirstSteps {
     }
 
     public void cube(int[] array) {
-        if (array == null){
+        if (array == null) {
             return;
         }
         for (int i = 0; i < array.length; i++) {
